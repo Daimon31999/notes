@@ -1,0 +1,33 @@
+* {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /*color: #00dbff;*/
+}
+
+body {
+    background: gold;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        /*background-color: red;*/
+        font-size: 10px;;
+    }
+    button {
+        font-size: 12px !important;
+        /*color: transparent;*/
+        /*width: 50% !important;*/
+    }
+    .header_input__2U2vE {
+        font-size: 12px !important;
+        height: 30px;
+        width: 100vw;
+    }
+
+
+}

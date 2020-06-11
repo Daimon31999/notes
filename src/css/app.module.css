@@ -1,0 +1,20 @@
+.app {
+
+}
+
+
+
+
+.content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    grid-template-areas: "top_bar"
+                         "header"
+                         "todolist"
+                         "footer" ;
+}
+
+

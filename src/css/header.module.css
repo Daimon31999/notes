@@ -1,0 +1,33 @@
+.header {
+
+}
+
+
+.input {
+    grid-area: header;
+    border: none;
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    color: gold;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    outline: 0;
+}
+
+input::placeholder {
+    color: #525252;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.button {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}

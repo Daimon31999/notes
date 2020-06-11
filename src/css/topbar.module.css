@@ -1,0 +1,42 @@
+
+.wrapper {
+    display: grid;
+    grid-template-areas: "login title color-buttons";
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    background: black;
+    margin-bottom: 1vw;
+}
+
+.wrapper > a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#title {
+    grid-area: title;
+    /*position: absolute;*/
+}
+
+#login {
+    grid-area: login;
+}
+
+
+
+.buttons {
+    grid-area: color-buttons;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons > button:nth-child(1) {
+    background: black;
+}
+.buttons > button:nth-child(2) {
+    background: white;
+}

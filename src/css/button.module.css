@@ -1,0 +1,8 @@
+.button {
+    grid-area: color;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid gold;
+    margin: 10px 2px;
+}
