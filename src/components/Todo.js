@@ -1,17 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-const Todo = ({onClick, completed, text}) => (
-    <li
-        className='todo'
-        onClick={onClick}
-        style={{
-            textDecoration: completed ? 'line-through' : 'none',
-            opacity: completed ? '0.5' : '1',
-            // color: 'black'
-        }}
-    >
-        {text}
+const Todo = ({ handleTodoClick, text }) => {
+  // *********************** useRef ***********************
+  const todoRef = useRef(null)
+
+  return (
+    <li className='todo' ref={todoRef} onClick={() => handleTodoClick(todoRef)}>
+      {text}
     </li>
-)
+  )
+}
 
 export default Todo
